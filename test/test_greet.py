@@ -2,7 +2,7 @@ import pytest
 from tds_hello_vineetha import greet
 
 def test_default():
-    assert greet() == "Hello, world! — from tds-hello v0.1.3"
+    assert greet() == "Hello, world! — from tds-hello v0.1.4"
 
 def test_custom_name():
     assert "Alice" in greet("Alice")
