@@ -53,7 +53,6 @@ jobs:
 
       - name: Publish
         run: uv publish --index testpypi dist/*
-	
 
   publish-pypi:
     name: Publish to PyPI
